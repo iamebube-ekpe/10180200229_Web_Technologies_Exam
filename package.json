@@ -1,0 +1,17 @@
+{
+    "name": "10180200229_web_technologies_exam",
+    "version": "1.0.0",
+    "description": "E-Commerce Website",
+    "main": "server.js",
+    "scripts": {
+        "dev": "nodemon server.js"
+    },
+    "author": "Ebube Victor Ekpe",
+    "license": "ISC",
+    "dependencies": {
+        "ejs": "^3.1.6",
+        "express": "^4.17.1",
+        "mongoose": "^5.11.15",
+        "nodemon": "^2.0.7"
+    }
+}

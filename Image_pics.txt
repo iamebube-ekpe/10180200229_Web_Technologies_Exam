@@ -1,0 +1,8 @@
+Laptop Envy = http://store.hp.com/app/assets/images/product/3G675UA%23ABA/center_facing.png?_=1592987856939
+Infinix Zero 8 = https://www.gizmochina.com/wp-content/uploads/2020/08/Infinix-Zero-8.jpg
+Bose Headphone 700 = https://cdn.vox-cdn.com/thumbor/224dWhZNhs1VV8TMcXfVK2M30x8=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/16305864/bose700.jpg
+
+CONNECT TO DATABASE: mongodb+srv://acity:webtech@exams.xrbci.mongodb.net/ebube
+
+
+VLC vid = GOTO 1:13:50, GOTO 55:55

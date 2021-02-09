@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="public/style.css">
+    <title>EVEL Tech Store</title>
+</head>
+
+<body>
+    <!-- Start of the navbar menu -->
+    <header>
+        <nav class="navbar fixed-top navbar-dark navbar-expand-md bg-secondary text-white">
+            <a class="text-white navbar-brand" href="/">
+                <i class="fa fa-cubes"></i> EVEL Tech Store
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto menu">
+                    <li class="nav-item active">
+                        <a href="/" class="nav-link">Home</a>
+                    </li>
+                    <a href="/complaintsform" class="text-white nav-link">
+                        <i id="cart_n" class="text-warning fas fas fa-address-book"></i> Feedback Form
+                    </a>
+                    <a href="/complaindata" class="nav-link text-white">
+                        <i class="far fa-comments"></i> Feedback
+                    </a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- End of the navbar menu -->
+
+    <!-- Start of description -->
+    <div class="container pb-5">
+        <div class="row pt-3 pb-5 px-4">
+
+            <div class="col-lg-6 mb-5 my-lg-auto">
+                <br>
+                <br>
+                <h3 class="text-dark mb-3">About Us</h3>
+                <p class="lead mb-4">This is a simple E-Commerce Website built by Ebube Victor Ekpe that deals in selling Laptops, Phones and Headphones. As a business that believes in <b>Customer First</b> we have made it very easy for cutomers who visit our website and
+                    wish to drop feedback by just clicking on Feedback Form</p>
+            </div>
+
+            <div class="col-lg-6"><img src="mypic.jpeg" alt="" class="w-100 rounded"></div>
+
+        </div>
+    </div>
+    <!-- Ending of description -->
+
+    <div class="container">
+        <div class="row py-0 py-md-3 py-lg-5">
+            <div class="col-12 text-center text-uppercase mt-5">
+                <h1 class="text-dark pb-3">
+                    Products
+                </h1>
+                <div class="border-top border-dark w-50 mx-auto"></div>
+            </div>
+        </div>
+    </div>
+
+    <!--- Cards -->
+    <div class="container-fluid">
+        <div class="row padding pt-3">
+            <div class="col-md-3 p-4">
+                <div class="card">
+                    <img class="card-img-top" src="http://store.hp.com/app/assets/images/product/3G675UA%23ABA/center_facing.png?_=1592987856939" alt="Envy Laptop">
+                    <div class="card-body">
+                        <h4 class="card-title">Hp Envy</h4>
+                        <!-- <p class="card-text">Paul is the Project Manager responsible for leading the team and ensuring that this project is completed in time. -->
+                        </p>
+                        <button id="Envy" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#envyModal">Buy</button>
+                        <!-- Start of Bose Modal -->
+                        <div class="modal fade" id="envyModal" tabindex="-1" aria-labelledby="envyModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="envyModalLabel">Modal title</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        The HP Envy is a Windows 10 laptop with a 17.00-inch display that has a resolution of 1920x1080 pixels. It is powered by a Core i7 processor and it comes with 12GB of RAM. The HP Envy packs 1TB of HDD storage. Graphics are powered by Nvidia GeForce GTX
+                                        850M.
+                                        <b>Brand:</b> HP <b>Dimensions (mm): </b> 279.00 x 419.50 x 31.10 <b>Operating system: </b> Windows 10
+
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 p-4">
+                <div class="card">
+                    <img class="card-img-top" src="https://www.gizmochina.com/wp-content/uploads/2020/08/Infinix-Zero-8.jpg" alt="Infinix Zero 8">
+                    <div class="card-body">
+                        <h4 class="card-title">Infinix Zero 8</h4>
+                        <button id="Bose" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#infinixModal">Buy</button>
+                        <!-- Start of Bose Modal -->
+                        <div class="modal fade" id="infinixModal" tabindex="-1" aria-labelledby="boseModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="infinixModalLabel">Modal title</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <b>OS:</b> Android 10 with XOS 7 <b>Display:</b> 6.85" full HD+ with 90Hz refresh rate and 180Hz touch sampling rate <b>CPU: </b> Octa-core MediaTek Helio G90T SoC <b>RAM</b> 8 GB <b>Internal Storage: </b> 128 GB
+                                        <b>Battery: </b> 4,500 mAh with support for 33 W fast charging <b>Camera</b> Rear - 64 megapixel primary sensor and 8 megapixel secondary sensor, both with ultra-wide-angle lens, depth sensor, and ultra-night video/Selfie
+                                        - 48 megapixel primary sensor with 8 megapixel secondary <b>Cooling:</b>Multi-dimensional liquid cooling Fingerprint scanner (side-mounted)
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 p-4">
+                <div class="card">
+                    <img class="card-img-top" src="https://cdn.vox-cdn.com/thumbor/224dWhZNhs1VV8TMcXfVK2M30x8=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/16305864/bose700.jpg" alt="Bose 700">
+                    <div class="card-body">
+                        <h4 class="card-title">Bose 700 Headphone</h4>
+                        <button id="Bose" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#boseModal">Buy</button>
+                        <!-- Start of Bose Modal -->
+                        <div class="modal fade" id="boseModal" tabindex="-1" aria-labelledby="boseModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="boseModalLabel">Modal title</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <b>Battery life: </b> 20 hours. <b>Weight: </b> 0.56 pounds. 11 levels of noise cancellation. Can pair with two devices at once. USB-C charging port. <b>Bluetooth range:</b> up to 33 feet. Codecs: AAC and SBC.
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js" integrity="sha512-UwcC/iaz5ziHX7V6LjSKaXgCuRRqbTp1QHpbOJ4l1nw2/boCfZ2KlFIqBUA/uRVF0onbREnY9do8rM/uT/ilqw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+
+</html>
